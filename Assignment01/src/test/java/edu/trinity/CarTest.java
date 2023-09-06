@@ -7,7 +7,8 @@ import java.time.Year;
 import static org.junit.jupiter.api.Assertions.*;
 
 class CarTest {
-    private final Car car = new Car("Toyota", "Camry", Year.of(2023));
+    private final Car car = new Car("Toyota",
+            "Camry", Year.of(2023));
 
     @Test
     void testGetters() {

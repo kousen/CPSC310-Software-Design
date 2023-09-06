@@ -1,6 +1,7 @@
 package edu.trinity;
 
 public class Fibonacci {
+    // Recursive, so issues with stack overflow
     public static int calculate(int n) {
         if (n < 0) {
             throw new IllegalArgumentException("n must be non-negative");
